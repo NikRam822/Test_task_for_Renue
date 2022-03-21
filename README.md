@@ -1,4 +1,4 @@
-# Test_task_for_Renue. File processing application.
+# Test task for Renue. File processing application.
 Test task for Renue. App File handler of Airports
 
 You will need java jdk11, git,maven to work with the application.
