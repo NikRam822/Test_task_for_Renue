@@ -9,6 +9,7 @@ import java.util.Properties;
  * A class that implements the application properties
  */
 public class Configuration {
+
     private int userNumberColumn = -1;
 
     /**
