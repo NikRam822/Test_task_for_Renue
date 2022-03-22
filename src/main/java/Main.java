@@ -1,4 +1,5 @@
-import FilesHandlers.Configuration;
+import filesHandlers.Configuration;
+import dataHandler.KMP;
 
 public class Main {
 

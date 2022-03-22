@@ -1,4 +1,6 @@
-import FilesHandlers.FileReader;
+package dataHandler;
+
+import filesHandlers.FileReader;
 
 import java.util.TreeSet;
 

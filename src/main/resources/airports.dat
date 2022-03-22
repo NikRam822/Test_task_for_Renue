@@ -6322,7 +6322,7 @@
 8893,"Glasgow Industrial Airport","Glasgow","United States",\N,"07MT",48.42110061645508,-106.52799987792969,2762,-7,"A","America/Denver","airport","OurAirports"
 8894,"Rochester Airport","Rochester","United Kingdom","RCS","EGTO",51.351898193359375,0.5033329725265503,436,0,"E","Europe/London","airport","OurAirports"
 8914,"Termas de Río Hondo international Airport","Rio Hondo","Argentina","RHD","SANR",-27.4966,-64.93595,935,-3,"S","America/Cordoba","airport","OurAirports"
-8918,"Keetmanshoop Airport","Keetmanshoop","Namibia","KMP","FYKT",-26.5398006439209,18.111400604248047,3506,1,"U","Africa/Windhoek","airport","OurAirports"
+8918,"Keetmanshoop Airport","Keetmanshoop","Namibia","dataHandler.KMP","FYKT",-26.5398006439209,18.111400604248047,3506,1,"U","Africa/Windhoek","airport","OurAirports"
 8925,"Iowa City Municipal Airport","Iowa City","United States","IOW","KIOW",41.639198303200004,-91.5465011597,668,-6,"A","America/Chicago","airport","OurAirports"
 8926,"Turpan Jiaohe Airport","Turpan","China","TLQ","ZWTP",43.0308,89.0987,934,8,"U","Asia/Shanghai","airport","OurAirports"
 8927,"Lorenzo Airport","Morro de Sao Paulo","Brazil",\N,"SNCL",-13.389444351196289,-38.90999984741211,3,-3,"S","America/Fortaleza","airport","OurAirports"
