@@ -9,6 +9,23 @@ import java.util.Properties;
  * A class that implements the application properties
  */
 public class Configuration {
+    private int userNumberColumn = -1;
+
+    /**
+     * Constructor for initializing user-entered data
+     *
+     * @param userNumberColumn user's data
+     */
+    public Configuration(int userNumberColumn) {
+
+        this.userNumberColumn = userNumberColumn;
+    }
+
+    /**
+     * Default constructor
+     */
+    public Configuration() {
+    }
 
     /**
      * Application Properties
@@ -24,15 +41,26 @@ public class Configuration {
         FileInputStream propertyFile = null;
         try {
             propertyFile = new FileInputStream("src/main/resources/application.properties");
+
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            try {
+                propertyFile = new FileInputStream("classes/application.properties");
+            } catch (FileNotFoundException fileNotFoundException) {
+                fileNotFoundException.printStackTrace();
+            }
         }
         try {
             properties.load(propertyFile);
         } catch (IOException exception) {
             exception.printStackTrace();
         }
-        return Integer.parseInt(properties.getProperty("columnNumber"));
+
+        if (userNumberColumn == -1) {
+            return Integer.parseInt(properties.getProperty("columnNumber"));
+        } else {
+            return userNumberColumn;
+        }
+
     }
 
 
